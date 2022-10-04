@@ -41,6 +41,10 @@ h1 {
     margin: auto;
     margin-top: 25px;
 }
+h2 {
+    color: white;
+    margin-left: 60px;
+}
 
 #imgHome {
     height: 90vh;
@@ -55,7 +59,9 @@ h1 {
 
 p {
     color: white;
-    margin: 20px;
+    margin-bottom: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
     line-height : 25px;
 }
 
@@ -72,4 +78,20 @@ p {
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+#imgSpeaker {
+    width: 5vw;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+#imgSpeaker:hover {
+    transform: scale(1.3);
+}
+
+#imgSpeaker:active {
+    transform: scale(0.9);
 }
